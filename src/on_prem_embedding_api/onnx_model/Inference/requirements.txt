@@ -1,0 +1,12 @@
+transformers
+optimum[onnxruntime-gpu]
+torch
+fastapi
+uvicorn
+onnx-graphsurgeon
+polygraphy
+onnx
+onnxruntime
+onnx-simplifier
+tensorrt
+pycuda
