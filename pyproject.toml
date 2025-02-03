@@ -3,7 +3,7 @@ name = "on-prem-embedding-api"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = "==3.11"
 dependencies = [
     "torch",
     "transformers",
@@ -12,6 +12,8 @@ dependencies = [
     "optimum[onnxruntime-gpu]",
     "onnx-graphsurgeon",
     "polygraphy",
-    "tensorrt",
+    "onnxruntime>=1.20.1",
+    "numpy>=2.2.2",
     "onnxsim",
+    "tensorrt",
 ]

@@ -111,7 +111,6 @@ onnx-graphsurgeon==0.5.5
     # via on-prem-embedding-api (pyproject.toml)
 onnxruntime-gpu==1.20.1
     # via optimum
-onnxsim==0.4.36
     # via on-prem-embedding-api (pyproject.toml)
 optimum==1.24.0
     # via on-prem-embedding-api (pyproject.toml)

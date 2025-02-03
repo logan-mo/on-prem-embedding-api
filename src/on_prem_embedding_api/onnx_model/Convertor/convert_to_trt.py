@@ -7,13 +7,12 @@ import numpy as np
 import os
 from onnxsim import simplify
 
-
 # Paths
 MODEL_NAME = "NovaSearch/stella_en_1.5B_v5"  # Hugging Face model
 ONNX_PATH = "./stella_model.onnx"
 SIMPLIFIED_ONNX_PATH = "./stella_model_simplified.onnx"
 TRT_ENGINE_PATH = "./stella_model.trt"
-MAX_SEQ_LENGTH = 256  # Adjust based on your input requirements
+MAX_SEQ_LENGTH = 16000  # Adjust based on your input requirements
 
 # TensorRT Logger
 TRT_LOGGER = trt.Logger(trt.Logger.WARNING)
