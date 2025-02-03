@@ -12,4 +12,6 @@ dependencies = [
     "optimum[onnxruntime-gpu]",
     "onnx-graphsurgeon",
     "polygraphy",
+    "tensorrt",
+    "onnxsim",
 ]
